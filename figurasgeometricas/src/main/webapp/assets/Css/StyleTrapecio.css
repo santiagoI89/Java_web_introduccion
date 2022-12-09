@@ -1,0 +1,39 @@
+body
+{
+    background-color: black;
+}
+h1
+{
+    color: orangered;
+}
+h1
+{
+    color: orangered;
+}
+p{
+    color: whitesmoke;
+}
+a
+{
+    color: orangered;
+    display: block; 
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    position: relative;
+    display: inline-block;   
+}
+a:hover
+{
+
+    color:orange;
+    transition: all.3s;
+    background-color: white;
+}
+.centrar-imagen
+{
+    text-align: center;
+}
+label
+{
+    color: orangered;
+}
