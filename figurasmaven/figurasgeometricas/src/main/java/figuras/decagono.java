@@ -14,8 +14,9 @@ public class decagono extends figurasgeometricas
         return lado2;
     }
 
-    public decagono( double lado1, double apotema, double Dearea, double Deperimetro) {
+    public decagono( double lado1,double lado2, double apotema, double Dearea, double Deperimetro) {
         this.lado1 = lado1;
+        this.lado2=lado2;
         this.apotema = apotema;
         this.Dearea = Dearea;
         this.Deperimetro = Deperimetro;
