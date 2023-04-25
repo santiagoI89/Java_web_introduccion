@@ -3,9 +3,7 @@ import java.util.*;
 public class ejecutar 
 {public static void main(String[] args) 
     { Scanner ingreso = new Scanner(System.in);
-        triangulo mytriangulo = new triangulo(0, 0, 0, 0);
-        trapecio myTrapecio = new trapecio(0, 0, 0, 0, 0);
-        decagono myDecagono = new decagono(0, 0, 0, 0);
+        triangulo mytriangulo = new triangulo(0, 0, 0, 0); trapecio myTrapecio = new trapecio(0, 0, 0, 0, 0);decagono myDecagono = new decagono(0, 0, 0, 0);
         int seguir=0,seleccion;
         do{System.out.println("Calcular perimetro y area");
             System.out.println("Escoja una figura\nDigite 1 para triangulo\nDigite 2 para trapecio\nDigite 3 para decagono ");
