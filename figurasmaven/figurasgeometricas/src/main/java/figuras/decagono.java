@@ -3,10 +3,15 @@ package figuras;
 public class decagono extends figurasgeometricas
 
 {
-    private double lado1,apotema,Dearea,Deperimetro;
+    private double lado1,lado2,apotema,Dearea,Deperimetro;
 
     public double getLado1() {
         return lado1;
+    }
+    
+    public double getLado2()
+    {
+        return lado2;
     }
 
     public decagono( double lado1, double apotema, double Dearea, double Deperimetro) {
@@ -19,6 +24,11 @@ public class decagono extends figurasgeometricas
     public void setLado1(double lado1) {
         this.lado1 = lado1;
     }
+    
+    public void setLado2(double lado2) {
+        this.lado2 = lado2;
+    }
+
 
     public double getApotema() {
         return apotema;
